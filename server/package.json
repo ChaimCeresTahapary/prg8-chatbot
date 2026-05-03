@@ -1,0 +1,19 @@
+{
+  "name": "prg8-eindopdracht-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "dependencies": {
+    "@langchain/openai": "^1.4.4",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}
